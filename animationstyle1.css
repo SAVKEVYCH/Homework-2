@@ -1,0 +1,21 @@
+div {
+font-size: 900%;
+animation-name: stretching;
+animation-duration: 3s;
+animation-iteration-count: 2
+}
+@keyframes stretching {
+	from {
+		opacity: 0.5;
+	}
+	50% {
+		opacity: 1;
+		-webkit-transform: scaled3d(1,5,1);
+		transform: scale3d(1,5,1);
+		background-color: red;
+	}
+
+	to {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	flex-direction:  row; /*column*/
+	flex-wrap: wrap;
+	height: 500px;
+	text-align: center;
+	justify-content: space-between;
+	margin-top: 20px;
+
+	}
+
+.flex-item { 
+	background-color: green;
+	width: 300px;
+
+}
+.flex-item1 { 
+	background-color: silver;
+	width: 450px;
+}
+.form {
+	background-color: silver;
+}

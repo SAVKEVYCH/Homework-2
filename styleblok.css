@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+}
+
+div {
+	text-align: center;
+	margin: 1px;
+}
+
+.container {
+	height: 150px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 10px;
+	font-size: 150%;
+	background-color: gainsboro;
+}
+
+.san  {
+	width: 495px;
+	border: 1px solid white;
+}
+
+.sbn {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 600px;
+}
+
+.scn {
+	height: 250px;
+	border: 1px solid white;
+
+}
+.abn div {
+	border: 1px solid gainsboro;
+	background-color: gray;
+}
+
+.abn {
+	display: flex;
+	justify-content: space-between;
+	
+	height: 150px;
+}
+
+
+
+.acn {
+	height: 50px;
+}
+ul {
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+    list-style-type: none;
+    border: 2px solid gainsboro;
+    margin-left: 10px;
+    margin-right: 10px;
+	padding: 0px;
+	font-size: 200%;
+}
+
+li {
+	width:1000px;
+	background-color: gray;
+}
+
+.can {
+	display:flex;
+	margin: 10px;
+	height: 70px;
+	border: 1px solid gray;
+	background-color: gainsboro;
+
+}
+.cal {
+	width: 50px;
+	height: 40px;
+    text-align: center;
+	font-size: 170%;
+	margin: 3px;
+	background-color: white;
+}
+
+.search {
+	width: 800px;
+	height: 40px;
+	background-color: white;
+	font-size: 170%;
+	margin: 3px;
+}
+	
+
+.cbn {
+	border: 1px solid gainsboro;
+    margin: 10px 10px 0px 10px;
+	height:30px;
+    width: 200px;
+    font-family: sans-serif;
+	font-size: 150%;
+    background-color: darkgrey;
+	text-align: center;
+}
+
+.ccn {
+	display:flex;
+	justify-content: space-between;
+	font-size: 150%
+	
+}
+#Bloks1 {
+	height: 150px;
+	width: 495px;
+	background-color: silver;
+	margin: 10px;
+}
+#Bloks2 {
+	height: 150px;
+	width: 495px;
+	background-color: silver;
+	margin: 10px;
+}
+#Bloks3 {
+	height: 150px;
+	width: 495px;
+	background-color: silver;
+	margin: 10px;
+}
+#Bloks4 {
+	height: 150px;
+	width: 495px;
+	background-color: silver;
+	margin: 10px;
+}
+
+
+
+.main {
+	display: flex;
+	height: 500px;
+	justify-content: space-around;
+}
+
+.man {
+	display: flex;
+	flex-flow: column;
+	margin-left: 5px;
+	justify-content: space-between;
+	width: 495px;
+}
+
+.man div {
+	height: 150px;
+	font-size: 150%;
+	border: 1px solid gray;
+}
+
+.mbn {
+	width: 850px;
+	height: 505px;
+	font-size: 150%;
+	display: flex;
+	text-align: center;
+	border: 1px solid white;
+	justify-content: space-between;
+	flex-flow: column;
+}
+
+.nan {
+	border: 1px solid gray;
+	height: 320px;
+	background-color: silver;
+}
+
+.da {
+	display: flex;
+	background-color: silver;
+	justify-content: space-between;
+	flex-flow: column;
+	height: 150px;
+
+	margin-top: 7px;
+	margin-bottom: 10px;
+
+}

@@ -1,0 +1,30 @@
+
+div {
+    font-size: 2500%;
+    animation-name: FFF;
+    animation-duration:2s;
+    text-align: center;
+    padding: 250px;
+    color: black;
+
+}
+
+@keyframes FFF {
+  from {
+    opacity: 1;
+  }
+  15% {
+    color: red;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+    
+  }
+
+  to {
+    opacity: 0;
+  }
+}
